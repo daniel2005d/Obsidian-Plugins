@@ -1,0 +1,10 @@
+{
+	"id": "move-images",
+	"name": "Organize Images",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Move images to a subfolder in the current note's folder.",
+	"author": "Daniel Vargas",
+	"authorUrl": "https://github.com/daniel2005d/Obsidian-Plugins",
+	"isDesktopOnly": false
+}

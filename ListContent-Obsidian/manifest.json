@@ -1,6 +1,6 @@
 {
 	"id": "contentlist-plugin",
-	"name": "Content Lis",
+	"name": "Content List",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Carga las páginas creadas en Obsidian y las muestra en una lista.",
