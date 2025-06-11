@@ -1,0 +1,9 @@
+{
+	"id": "RichText-obsidian",
+	"name": "Rich Text",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "This change titles and text with rich HTML",
+	"author": "Daniel Vargas",
+	"isDesktopOnly": false
+}

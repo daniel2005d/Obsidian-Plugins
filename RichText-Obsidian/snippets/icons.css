@@ -1,0 +1,52 @@
+/* === Snippet: Custom Icons for Obsidian File Explorer === */
+
+/* Folder icon */
+.nav-folder-title-content::before {
+    content: "📁 ";
+    font-size: 1em;
+  }
+  
+  /* Markdown file icon */
+  .nav-file-title[data-path$=".md"]::before {
+    content: "🧾 ";
+    font-size: 1em;
+    
+  }
+  
+  /* Image file icons */
+  .nav-file-title[data-path$=".png"]::before,
+  .nav-file-title[data-path$=".jpg"]::before,
+  .nav-file-title[data-path$=".jpeg"]::before,
+  .nav-file-title[data-path$=".gif"]::before,
+  .nav-file-title[data-path$=".webp"]::before {
+    content: "🏞️ ";
+    font-size: 1em;
+  }
+  
+  body {
+    --h1-color: #9fef00;
+    --h2-color: #ffaf00 ;
+    --h3-color: rgb(255, 196, 0);
+    --h4-color: green;
+    --h5-color: blue;
+    --h6-color: pink;
+    --icon-size: 1.5em;
+    --border-width: 2px;
+    --list-indent: 20px;  
+    --metadata-background: #89ff01;
+    --tag-weight: 700;
+    /* --list-marker-color: #FF00FF;
+    --list-numbered-style: decimal; */
+}
+
+
+
+  
+/* 
+  
+.callout[data-callout="bug"] {
+    --callout-bug: #ff3333;
+    --callout-title-color: rgb(78, 8, 55);
+    background-color: #b3a7a7;
+    border-left: 4px solid var(--callout-bug);
+  } */
